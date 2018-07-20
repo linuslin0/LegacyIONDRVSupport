@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -112,11 +112,12 @@
 				TargetAttributes = {
 					156A7E4320FD942300BFF7D1 = {
 						CreatedOnToolsVersion = 10.0;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
 			buildConfigurationList = 156A7E3E20FD942300BFF7D1 /* Build configuration list for PBXProject "LegacyIONDRVSupport" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
