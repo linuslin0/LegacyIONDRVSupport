@@ -15,7 +15,7 @@ This is an unsigned kext, to load it you will first need to disable kext signing
 <!--File: NVDAResmanTesla(Web).kext\Contents\Info.plist-->
 <key>OSBundleLibraries</key>
 <dict>
-<key>info.idelta.iokit.LegacyIONDRVSupport</key>
+<key>xyz.linuslin.iokit.LegacyIONDRVSupport</key>
 <string>1.0.0</string> 
 </dict>
 ```
@@ -44,3 +44,6 @@ GeForceTeslaGLDriver(Web).bundle
 GeForceTeslaVADriver(Web).bundle
 GeForceTeslaGAWeb.bundle
 ```
+
+### Credits
+- [ASentientBot](https://forums.macrumors.com/threads/macos-10-14-mojave-on-unsupported-macs-thread.2121473/page-102#post-26239785) for original GeForceTeala binary patch

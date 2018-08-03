@@ -10,7 +10,7 @@ An IOKit driver to work with legacy Nvidia Tesla drivers on macOS 10.14.
 ### Requirements
 macOS 10.14 Mojave.
 
-This kext is not fully tested. Use at your own risk.
+This kext has not been fully tested. Use at your own risk.
 
 ### Background
 Start with macOS 10.14, Apple removed drivers for legacy Nvidia GPUs not capable of running Metal. However these GPUs may still be usable with full hardware acceleration on macOS 10.14 by bringing back missing `_VSLGestalt()` symbol in IONDRVSupport, and also minor patches for the Tesla kexts. This kext would take care of the former by porting the original implementation from macOS 10.13 IOGraphics code.
@@ -25,5 +25,5 @@ See [Usage](https://github.com/linzhouyu/LegacyIONDRVSupport/blob/master/Usage.m
 - Initial commit
 
 ### Credits
-- [Apple](https://www.apple.com) for macOS
-- [ASentientBot](https://forums.macrumors.com/threads/macos-10-14-mojave-on-unsupported-macs-thread.2121473/page-102#post-26239785) for the GeForceTeala binary patch
+- [Apple](https://www.apple.com) for macOS and its [Open Source Projects](https://opensource.apple.com).
+
